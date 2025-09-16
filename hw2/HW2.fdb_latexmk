@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1757997713.22082 "d:/study/eecs460/hw/hw2/HW2.tex" "HW2.pdf" "HW2" 1757997713.66414 0
+["pdflatex"] 1758004850.85816 "d:/study/eecs460/hw/hw2/HW2.tex" "HW2.pdf" "HW2" 1758004851.28223 0
   "C:/Users/64892/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1757300261 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/64892/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1757299798 13240507 4c84e2da99c1bfff54d6e4292674592d ""
   "D:/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -54,9 +54,11 @@
   "D:/MiKTeX/tex/latex/graphics/keyval.sty" 1749322634 2671 d9941f4bf4750e9b0603c9a2ec54693b ""
   "D:/MiKTeX/tex/latex/graphics/trig.sty" 1749322634 4023 e66acf578d6b564c4670fb57ff336a7a ""
   "D:/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1751005717 30351 a2b09edc6c93a742566b222c33d0278e ""
-  "HW2.aux" 1757997713 32 ab05033ccbb38b00a31b200ccedf8001 "pdflatex"
-  "HW2.tex" 1757997712 3119 f4faf4935f71d261b0aa546325443b3b ""
-  "d:/study/eecs460/hw/hw2/HW2.tex" 1757997712 3119 f4faf4935f71d261b0aa546325443b3b ""
+  "HW2.aux" 1758004851 32 c81c40425fbb5e93b90fba65da0b5e61 "pdflatex"
+  "HW2.tex" 1758004850 4012 8513fa6b178398dbea32a28fc350b1c5 ""
+  "Q2c.png" 1758002906 58371 b7c1a951a859543688b42a76c96a4fde ""
+  "Q2d.png" 1758003744 59949 13f90406693f486d822969ee99f3ab2f ""
+  "d:/study/eecs460/hw/hw2/HW2.tex" 1758004850 4012 8513fa6b178398dbea32a28fc350b1c5 ""
   (generated)
   "HW2.aux"
   "HW2.log"
