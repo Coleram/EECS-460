@@ -18,6 +18,8 @@ This repository contains my solutions and implementations for the **EECS 460 cou
 - - **Key Features:**
   - Definition and conversion between TF and ODE
   - Poles, zeros, stability, and simulation
-  - Linearization  
-- **LaTex Source Files:** `hw1.tex`
-- **Output PDF Files:** `hw1.pdf`
+  - Linearization
+- **Homework Files:** `hw1/hw1_ee460_f2025.pdf` 
+- **LaTex Source Files:** `hw1/hw1.tex`
+- **Output PDF Files:** `hw1/hw1.pdf`
+- **Solution Files:** `hw1/hw1_ee460_f2025_Solution.pdf`
