@@ -2,6 +2,7 @@
 \usepackage{amsmath, amssymb, graphicx}
 \usepackage{geometry}
 \usepackage{enumitem}
+\usepackage{hyperref}
 \geometry{a4paper, margin=1in}
 
 \begin{document}
@@ -137,6 +138,67 @@
         \begin{center}
             \includegraphics[width=0.6\textwidth]{Q2d.png}
         \end{center}
+
+    \end{enumerate}
+
+\section*{Question 3}
+    \begin{enumerate}[label=\roman*.]
+        \item (a) TF:
+        \[G(s) = \frac{12}{s^2+2s+10}\]
+        \[2\zeta\omega_n = 2, \omega_n^2 = 10\]
+        \[\omega_n = \sqrt{10}, \zeta = \frac{1}{\sqrt{10}} \approx 0.3162 < 1\]
+        So the system is under-damped.
+        (b) TF:
+        \[G(s) = \frac{8}{s^2+20s+4}\]
+        \[2\zeta\omega_n = 20, \omega_n^2 = 4\]
+        \[\omega_n = 2, \zeta = 5 > 1\]
+        So the system is over-damped.
+
+        \item (a)
+        \[T_s \approx \frac{3}{\zeta\omega_n} = 3s\]
+        (b)
+        This is a over-damped system, and usually the settling time of a 
+        over-damped system can be obtain from simulation which is told by 
+        professor on piazza and recommended book (Control system: 
+        An introduction). But I found a way to estimate the settling time of a
+        over-damped system on the internet called
+        \href{https://electronics.stackexchange.com/questions/511722/
+        how-to-estimate-settling-time-of-an-overdamped-system}
+        {Dominant pole method}, from which we can get an approximate value
+        without simulation:
+        \[T_s \approx \frac{3}{|Re(P_d)|} = \frac{3}{0.202} = 14.8515s\]
+        Also, for verification, result from simulation:
+        \[T_s = 14.8792\]
+
+        \item (a)
+        \[M = e^{\frac{-\zeta}{\sqrt{1-\zeta^2}}\pi} = 0.3509 = 35.09\%\]
+        (b)
+        For it is over-damped system, there is nop overshoot and $M = 0$
+
+        \item (a) From iii, $M = 35.09, \text{step value} = 2, \text{DC Gain}
+        =1.2, y_{ss} = 2.4$
+        So $\text{Peak Value} = 2.4 * (1+0.3509) = 3.2422$
+        And from picture, $\text{Peak Value} = 3.242$ which is corresponding to
+        the result we get from iii.
+        \begin{center}
+            \includegraphics[width=0.6\textwidth]{Q3a.png}
+        \end{center}
+
+        (b) From iii, $M = 0, \text{step value} = 2, \text{DC Gain}
+        =2, y_{ss} = 4$
+        So $\text{Peak Value} = 4 * (1+0) = 4$
+        And from picture, $\text{Peak Value} = 4$ which is also corresponding to
+        the result we get from iii.
+        \begin{center}
+            \includegraphics[width=0.6\textwidth]{Q3b.png}
+        \end{center}
+
+    \end{enumerate}
+
+\section*{Question 4}
+    \begin{enumerate}[label=\alph*]
+        \item \[G(s) = \frac{8000}{s^5+77s^4+2051s^3+21325s^2+80000s+406250}\]
+        \[\text{Poles:} \]
 
     \end{enumerate}
 
