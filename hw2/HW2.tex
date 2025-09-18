@@ -197,9 +197,55 @@
 
 \section*{Question 4}
     \begin{enumerate}[label=\alph*]
-        \item \[G(s) = \frac{8000}{s^5+77s^4+2051s^3+21325s^2+80000s+406250}\]
-        \[\text{Poles:} \]
+        \item \[G(s) = \frac{8000}{s^5 + 77s^4 +2051s^3 + 21325s^2 + 80000s +
+            406250}\]
+        \[\text{Poles:} s_1 = s_2 = s_3 = -25, s_4 = -1+5i, s_5 = -1-5i\]
+
+        \item \[\tau_1 = \tau_2 = \tau_3 = 0.04, \tau_4 = \tau_5 = 1\]
+        
+        \item A second-order approximation because the poles i choose is 
+            complex.
+
+        \item \[G_a(s) = \frac{b_0}{s^2+2s+26}\]
+        \[G_a(0) = \frac{b_0}{26} = \frac{8000}{406250}\]
+        \[b_0 = 0.512\]
+        \[G_a(0) = \frac{0.512}{s^2+2s+26}\]
+
+        \item The step response:
+        \begin{center}
+            \includegraphics[width=0.6\textwidth]{Q4.png}
+        \end{center}
 
     \end{enumerate}
+
+\section*{Question 5}
+    \begin{enumerate}[label=\alph*]
+        \item \[H(s) = \frac{8000}{s^5 + 637s^4 + 7571s^3 + 44685s^2 + 194400s +
+            406250}\]
+        \[\text{Poles:} s_1 = -625, s_2 = 1+5i, s_3 = 1-5i, s_4 = s_5 = -5\]
+
+        \item \[\tau_1 = 0.0016, \tau_2 = \tau_3 = 1, \tau_4 = \tau_5 = 0.2\]
+
+        \item \[H_a(s) = \frac{b_0}{s^2+2s+26}\]
+        \[H_a(0) = \frac{b_0}{26} = \frac{8000}{406250}\]
+        \[b_0 = 0.512\]
+        \[H_a(0) = \frac{0.512}{s^2+2s+26}\]
+
+    \end{enumerate}
+
+\section*{Question 6}
+    When they have the same poles 1, $G_a(s)$ is better because the other poles 
+        are 0.04, which is smaller enough than $H_a(s)$ which is 0.2.
+
+\section*{Question 7}
+
+    \[DC GAIN = J(0) = \frac{a_0}{10}\]
+    Consider the step value is 1 as conventional: $\frac{a_0}{10}  = 5$
+    \[a_0 = 50\]
+    Then from simulation on MATLAB, tuning the value of $a_1$, get $a_1 = -51$
+    \begin{center}
+        \includegraphics[width=0.6\textwidth]{Q7.png}
+        \includegraphics[width=0.6\textwidth]{Q7m.png}
+    \end{center}
 
 \end{document}
