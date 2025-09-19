@@ -14,7 +14,7 @@
 
 \section*{Question 1}
     \begin{enumerate}[label=\roman*.]
-        \item (a)
+        \item (a)bu
         \[G(s) = \frac{4s-8}{s^2+2s-9}\]
         \[\text{DC GAIN} = G(0) = \frac{-8}{-9}\]
 
@@ -94,7 +94,7 @@
 
         We get:
         \[y(0) = c_1 + c_2 + \frac{16}{9} = 0\]
-        \[\dot{y(0)} = (-1+\sqrt{10})c_1 + (-1-\sqrt{10}c_2) = 0\]
+        \[\dot{y(0)} = (-1+\sqrt{10})c_1 + (-1-\sqrt{10})c_2 = 0\]
 
         So:
         \[c_1 = -1.17, c_2 = -0.6078\]
@@ -121,7 +121,7 @@
     \end{enumerate}
 
 \section*{Question 2}
-    \begin{enumerate}[label=\alph*]
+    \begin{enumerate}[label=(\alph*)]
         \item TF:
         \[G(s) = \frac{4}{s+3}\]
         \[\text{Roots: } s = -3 < 0 \text{So this system is stable.}\]
@@ -148,6 +148,7 @@
         \[2\zeta\omega_n = 2, \omega_n^2 = 10\]
         \[\omega_n = \sqrt{10}, \zeta = \frac{1}{\sqrt{10}} \approx 0.3162 < 1\]
         So the system is under-damped.
+
         (b) TF:
         \[G(s) = \frac{8}{s^2+20s+4}\]
         \[2\zeta\omega_n = 20, \omega_n^2 = 4\]
@@ -156,6 +157,7 @@
 
         \item (a)
         \[T_s \approx \frac{3}{\zeta\omega_n} = 3s\]
+
         (b)
         This is a over-damped system, and usually the settling time of a 
         over-damped system can be obtain from simulation which is told by 
@@ -172,6 +174,7 @@
 
         \item (a)
         \[M = e^{\frac{-\zeta}{\sqrt{1-\zeta^2}}\pi} = 0.3509 = 35.09\%\]
+
         (b)
         For it is over-damped system, there is nop overshoot and $M = 0$
 
@@ -196,7 +199,7 @@
     \end{enumerate}
 
 \section*{Question 4}
-    \begin{enumerate}[label=\alph*]
+    \begin{enumerate}[label=(\alph*)]
         \item \[G(s) = \frac{8000}{s^5 + 77s^4 +2051s^3 + 21325s^2 + 80000s +
             406250}\]
         \[\text{Poles:} s_1 = s_2 = s_3 = -25, s_4 = -1+5i, s_5 = -1-5i\]
@@ -219,10 +222,10 @@
     \end{enumerate}
 
 \section*{Question 5}
-    \begin{enumerate}[label=\alph*]
+    \begin{enumerate}[label=(\alph*)]
         \item \[H(s) = \frac{8000}{s^5 + 637s^4 + 7571s^3 + 44685s^2 + 194400s +
             406250}\]
-        \[\text{Poles:} s_1 = -625, s_2 = 1+5i, s_3 = 1-5i, s_4 = s_5 = -5\]
+        \[\text{Poles:} s_1 = -625, s_2 = -1+5i, s_3 = -1-5i, s_4 = s_5 = -5\]
 
         \item \[\tau_1 = 0.0016, \tau_2 = \tau_3 = 1, \tau_4 = \tau_5 = 0.2\]
 
@@ -236,6 +239,10 @@
 \section*{Question 6}
     When they have the same poles 1, $G_a(s)$ is better because the other poles 
         are 0.04, which is smaller enough than $H_a(s)$ which is 0.2.
+    Also from simulation:
+    \begin{center}
+        \includegraphics[width=0.6\textwidth]{Q6.png}
+    \end{center}
 
 \section*{Question 7}
 
