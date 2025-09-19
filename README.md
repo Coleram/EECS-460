@@ -27,7 +27,7 @@ This repository contains my solutions and implementations for the
 - **Solution Files:** `hw1/hw1_ee460_f2025_Solution.pdf`
 
 ### Homework 2
-- **Description:** Basic concept of system and control, Intro to MATLAB and Simulink (corresponding to Lec 4-5)
+- **Description:** Time Domain Characteristic Analysis (corresponding to Lec 4-5)
 - - **Key Features:**
   - Initial Conditional Response
   - Input Response
