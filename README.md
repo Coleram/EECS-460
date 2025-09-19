@@ -1,5 +1,6 @@
 # EECS 460 — Control Systems Analysis and Design
-This repository contains my solutions and implementations for the **EECS 460 course homework**.  
+This repository contains my solutions and implementations for the 
+  **EECS 460 course homework**.  
 
 ---
 
@@ -14,7 +15,8 @@ This repository contains my solutions and implementations for the **EECS 460 cou
 ## 📂 Homework Overview
 
 ### Homework 1
-- **Description:** Basic concept of system and control, Intro to MATLAB and Simulink (corresponding to Lec 1-3)
+- **Description:** Basic concept of system and control, Intro to MATLAB and 
+  Simulink (corresponding to Lec 1-3)
 - - **Key Features:**
   - Definition and conversion between TF and ODE
   - Poles, zeros, stability, and simulation
@@ -23,3 +25,16 @@ This repository contains my solutions and implementations for the **EECS 460 cou
 - **LaTex Source Files:** `hw1/hw1.tex`
 - **Output PDF Files:** `hw1/hw1.pdf`
 - **Solution Files:** `hw1/hw1_ee460_f2025_Solution.pdf`
+
+### Homework 2
+- **Description:** Basic concept of system and control, Intro to MATLAB and Simulink (corresponding to Lec 4-5)
+- - **Key Features:**
+  - Initial Conditional Response
+  - Input Response
+  - RH Stability Conditions
+  - Step Response Characteristic
+  - Dominant Pole Approximation (DPA)
+- **Homework Files:** `hw1/hw2_ee460_f2025.pdf` 
+- **LaTex Source Files:** `hw2/hw2.tex`
+- **Output PDF Files:** `hw2/hw2.pdf`
+- **Solution Files:** tbd
